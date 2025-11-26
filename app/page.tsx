@@ -1,10 +1,11 @@
+import Home from "@/components/Home";
 
 function page() {
   return (
-    <div className="text-5xl underline">
-      this is the home page
-    </div>
-  )
+    <main>
+      <Home />
+    </main>
+  );
 }
 
-export default page
+export default page;
