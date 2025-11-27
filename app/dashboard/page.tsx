@@ -1,11 +1,10 @@
-import React from 'react'
 
-function Dashboard() {
-  return (
-    <div>
-      <h1>This is the Dashboard</h1>
-    </div>
-  )
-}
+const dashboard = () => {
+    return (
+        <div>
+            this is the Dashboard Page
+        </div>
+    );
+};
 
-export default Dashboard
+export default dashboard;
