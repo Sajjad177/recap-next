@@ -1,6 +1,7 @@
-import Link from "next/link";
+import Link from 'next/link';
+;
 
-function User() {
+const User = () => {
   return (
     <div>
       <h1>This is the User component</h1>
@@ -24,6 +25,6 @@ function User() {
       </ul>
     </div>
   );
-}
+};
 
 export default User;

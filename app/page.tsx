@@ -1,12 +1,12 @@
-import Home from "@/components/Home";
+import Home from '@/components/Home';
 
-function page() {
+const RootPage = () => {
   return (
-    <main>
+    <div>
       <h1>Video will start on 31:00 minute</h1>
       <Home />
-    </main>
+    </div>
   );
-}
+};
 
-export default page;
+export default RootPage;
